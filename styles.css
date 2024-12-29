@@ -4,11 +4,16 @@
   }
 
 body {
-    font-family: 'Shantell Sans';font-size: 28px;
+    font-family: 'Shantell Sans';
+    font-size: 28px;
     background-color:#000c1c;
 }
 
 p {
     color:#a914ff;
     text-align: center;
+}
+
+.pad {
+    padding: 50px;
 }
