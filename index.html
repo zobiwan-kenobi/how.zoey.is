@@ -3,8 +3,13 @@
 <head>
   <title>How is Zoey?</title>
   <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="mood.js"></script>
 </head>
 
-  <p class="pad" id="mood">okay.</p>
+  <p class="pad" id="mood"></p>
+
+  <script>
+    document.getElementById("mood").innerHTML = mood + ".";
+  </script>
 
 </body>
